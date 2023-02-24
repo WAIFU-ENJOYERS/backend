@@ -12,3 +12,6 @@ Table score {
 }
 ```
 
+### Framework:
+  - Backend: Django
+  - Database: PostgresSQL
