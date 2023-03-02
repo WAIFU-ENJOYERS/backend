@@ -30,6 +30,8 @@ cur.execute(
 """
 )
 
+conn.commit()
+
 # Read the JSON data from a file
 with open(WAIFU_JSON) as f:
     data = json.load(f)
