@@ -1,0 +1,20 @@
+version: '2.16'
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: waifu-db
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
+
+volumes:
+  db:
+    driver: local
+  db_data:
+
+# Use postgres/example user/password credentials
