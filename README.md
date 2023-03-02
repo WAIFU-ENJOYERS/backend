@@ -9,6 +9,7 @@
   - Python's dependencies:
     - psycopg2
     - json
+    - pytest
     
 
 ```
