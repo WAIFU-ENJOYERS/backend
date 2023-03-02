@@ -162,3 +162,7 @@ cython_debug/
 # cred.yaml
 
 *.DS_Store
+
+.metals/
+.pytest_cache/
+.vscode/
