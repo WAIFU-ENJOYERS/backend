@@ -24,7 +24,7 @@
     - psycopg2
     - json
     - pytest
-    
+
 
 ```
 Table Waifu {
